@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — __MSG_extName__</title>
+<style>
+:root{color-scheme:light dark}
+body{max-width:46rem;margin:0 auto;padding:2rem 1.25rem 4rem;
+ font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+h1{font-size:1.5rem;line-height:1.3;margin-bottom:.25rem}
+h2{font-size:1.05rem;margin-top:2rem;border-bottom:1px solid currentColor;
+ padding-bottom:.3rem;opacity:.95}
+code{font-size:.9em;padding:.1em .35em;border-radius:4px;background:rgba(127,127,127,.18)}
+.meta{opacity:.7;font-size:.87rem;margin-top:0}
+ul{padding-left:1.3rem}
+a{color:#0b64d0}@media(prefers-color-scheme:dark){a{color:#7ab7ff}}
+</style></head><body>
+<h1>Política de privacidad — __MSG_extName__</h1>
+<p class="meta">Versión 1.0.0 · <a href="../index.html">todas las políticas</a></p>
+<h2>Qué datos maneja</h2>
+<p>__MSG_extName__ funciona en el navegador del usuario. Los datos que la extensión crea
+(ajustes, historial, elementos guardados) se almacenan con <code>chrome.storage</code> en el
+propio equipo. No existe ningún servidor operado por nosotros: no recibimos, no almacenamos
+y no vendemos datos de los usuarios.</p>
+
+<h2>Servicios de terceros</h2>
+<p>Si el usuario configura una clave de API propia, el contenido necesario para la operación
+solicitada se envía <strong>directamente</strong> desde su navegador al proveedor que él haya
+elegido. Nosotros no intermediamos ni vemos ese tráfico. Los destinos posibles son:</p>
+<ul><li><code>aistudio.google.com</code></li><li><code>api.anthropic.com</code></li><li><code>api.deepseek.com</code></li><li><code>api.groq.com</code></li><li><code>api.mistral.ai</code></li><li><code>api.openai.com</code></li><li><code>api.together.xyz</code></li><li><code>console.anthropic.com</code></li><li><code>console.groq.com</code></li><li><code>console.mistral.ai</code></li><li><code>generativelanguage.googleapis.com</code></li><li><code>openrouter.ai</code></li><li><code>platform.deepseek.com</code></li><li><code>platform.openai.com</code></li></ul>
+<p>La clave de API se guarda únicamente en el almacenamiento local del navegador y nunca se
+envía a nadie más que al proveedor correspondiente. El tratamiento que cada proveedor haga de
+los datos se rige por su propia política de privacidad.</p>
+
+<h2>Datos que NO recogemos</h2>
+<ul>
+<li>No hay analítica, telemetría ni identificadores de seguimiento.</li>
+<li>No se recogen datos de salud, financieros, de autenticación ni comunicaciones personales
+    con destino a servidores nuestros.</li>
+<li>No se venden ni se transfieren datos a terceros con fines publicitarios.</li>
+<li>No se usan los datos del usuario para entrenar modelos.</li>
+</ul>
+
+<h2>Permisos solicitados y para qué</h2>
+<ul>
+<li><code>storage</code> — Guardar los ajustes y los datos del usuario en el navegador. No se sincronizan con ningún servidor propio.</li>
+<li><code>activeTab</code> — Leer el contenido de la pestaña activa solo cuando el usuario abre la extensión y actúa sobre ella.</li>
+<li><code>scripting</code> — Inyectar el script de análisis en la pestaña que el usuario indica, bajo su gesto explícito.</li>
+<li><code>sidePanel</code> — Mostrar la interfaz principal en el panel lateral de Chrome.</li>
+<li><code>downloads</code> — Guardar en disco los ficheros que el usuario exporta (CSV, JSON, Excel, PDF, Markdown). La extensión no descarga nada por su cuenta.</li>
+
+</ul>
+
+<h2>Control del usuario y borrado</h2>
+<p>Todos los datos residen en el navegador. Se eliminan por completo desinstalando la extensión,
+o desde <code>chrome://settings/siteData</code>. Las funciones de exportación permiten al usuario
+llevarse sus datos en CSV, JSON o Markdown cuando la extensión las ofrece.</p>
+
+<h2>Uso limitado</h2>
+<p>El uso de la información recibida se ajusta a la
+<a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use/">política de
+Uso Limitado</a> de la Chrome Web Store: los datos se emplean únicamente para ofrecer la
+funcionalidad visible al usuario.</p>
+
+<h2>Contacto</h2>
+<p>Incidencias y preguntas: <a href="https://github.com/spinedab/chrome-extensions-suite/issues">github.com/spinedab/chrome-extensions-suite/issues</a></p>
+</body></html>
